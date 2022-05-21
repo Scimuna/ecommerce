@@ -37,7 +37,7 @@
 
 #searchbox{
 	display: inline-block;
-	width: 17%;
+	width: 40%;
 	border: 0.1px solid black;
 	clear: both;
 
@@ -123,4 +123,22 @@
 	height: 300px;
 	width: 100%;
 	background-color: #F6F7FB;
+}
+
+
+@media screen and (max-width:1040px){
+
+.navdrop{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+
+
+
+
+
 }
