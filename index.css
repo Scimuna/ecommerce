@@ -1,15 +1,26 @@
 /*.col{
 
-	border: 2px solid red;
-	min-height: 100px;
+	border: 1px solid rgba(0,0,0,0.1);
+	min-height:20px;
 	box-sizing: border-box;
 }*/
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.container,.container-fluid{
+	min-height:45px;
+}
+
+
+
+.container,.container-fluid{
+	overflow: hidden;
+}
 
 
 #topheader{
 
 	background-color:#7E33E0;
 	color: white;
+	min-height: 40px;
 }
 
 #divsearch{
@@ -27,7 +38,7 @@
 #searchbox{
 	display: inline-block;
 	width: 17%;
-	border: 1px solid black;
+	border: 0.1px solid black;
 	clear: both;
 
 }
