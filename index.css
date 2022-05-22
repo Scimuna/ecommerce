@@ -38,7 +38,6 @@
 #searchbox{
 	display: inline-block;
 	width: 40%;
-	border: 0.1px solid black;
 	clear: both;
 
 }
@@ -65,10 +64,12 @@
 	background-repeat: no-repeat;
 	min-height:550px;
 	position: relative;
-	left:3.5%;
+	left:3%;
 	z-index:-4;
 	background-size:90% 100%;
 }
+
+
 
 #promospan{
 
@@ -126,6 +127,9 @@
 }
 
 
+
+
+
 @media screen and (max-width:1040px){
 
 .navdrop{
@@ -138,7 +142,66 @@
 
 
 
+}
 
 
+
+
+
+
+
+@media screen and (min-width:1000px){
+
+
+.writings{
+		padding-top: 200px;
+	
+}
+
+.sida{
+	width:85%;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+
+#coverchair{
+	background-repeat: no-repeat;
+	position: relative;
+	left:1%;
+	z-index:-4;
+	background-size:90% 100%;
+	margin-top: 150px;
+	width: 100%;
+}
+
+
+
+
+#achair{
+	background-repeat: no-repeat;
+	margin-top: -250px;
+	background-size: contain;
+	position: relative;
+	left:-2%;
+}
+
+
+.sida{
+
+	width: 20%;
+}
+
+
+.writings{
+		padding-top:-200px;
+	
+}
 
 }
