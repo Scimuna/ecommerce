@@ -57,6 +57,7 @@
 	background-size: contain;
 	position: relative;
 	left:-2%;
+	min-height:550px;
 }
 
 #coverchair{
@@ -141,7 +142,6 @@
 
 
 
-
 }
 
 
@@ -163,6 +163,17 @@
 }
 
 
+	.smalnt{
+
+	margin-top: 70px;
+	font-size: 14px;
+	margin-bottom:0px;
+	}
+
+
+
+
+
 }
 
 
@@ -172,13 +183,33 @@
 
 
 #coverchair{
+	background-image:url('background.png');
 	background-repeat: no-repeat;
+	height:300px;
 	position: relative;
-	left:1%;
+	left:10%;
 	z-index:-4;
-	background-size:90% 100%;
-	margin-top: 150px;
-	width: 100%;
+	background-size:80% 80%;
+	margin-bottom: -200px;
+}
+
+
+#achair{
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+	margin-top: -400px;
+	background-size: contain;
+	position: relative;
+	left:-3%;
+	height:200px;
+}
+
+
+.smalnt{
+
+	margin-top: 70px;
+	font-size: 14px;
+	margin-bottom:0px;
 }
 
 
@@ -190,6 +221,7 @@
 	background-size: contain;
 	position: relative;
 	left:-2%;
+	width: 40%;
 }
 
 
@@ -203,5 +235,9 @@
 		padding-top:-200px;
 	
 }
+
+
+
+
 
 }
