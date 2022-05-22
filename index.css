@@ -185,23 +185,50 @@
 #coverchair{
 	background-image:url('background.png');
 	background-repeat: no-repeat;
-	height:300px;
+	width: 100% !important;
 	position: relative;
-	left:10%;
+	left:15%;
 	z-index:-4;
 	background-size:80% 80%;
 	margin-bottom: -200px;
+	height:200px !important;
 }
 
 
-#achair{
-	background-image: url('background.png');
-	background-repeat: no-repeat;
-	margin-top: -400px;
-	background-size: contain;
+
+
+
+#promoospan{
+
+	position:absolute;
+	left: 3px;
+	top: -3%;
+	left:83%;
+	color: white;
+	font-size: 35px;
+	font-family:Josefin Sans;
+	width:30%;
+
+}
+
+
+
+#promospan{
+
+	position:absolute;
+	top: 2%;
+	left:83%;
+	color: white;
+	font-size: 35px;
+	font-family:Josefin Sans;
+
+}
+
+.pramo{
+	width:30%;
 	position: relative;
-	left:-3%;
-	height:200px;
+	top: 60px !important;
+
 }
 
 
@@ -222,12 +249,15 @@
 	position: relative;
 	left:-2%;
 	width: 40%;
+	margin-top:-250px !important;
 }
 
 
 .sida{
 
-	width: 20%;
+	max-width: 100%;
+    width: 100%;
+    height: 400px !important;
 }
 
 
